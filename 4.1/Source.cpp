@@ -1,8 +1,8 @@
 // Lab_03_4.cpp
-// < Øêðèíäà Âîëîäèìèð
-// Ëàáîðàòîðíà ðîáîòà ¹ 4.1
-// Öèêëè.
-// Âàð³àíò 22
+// < Ð¨ÐºÑ€Ð¸Ð½Ð´Ð° Ð’Ð¾Ð»Ð¾Ð´Ð¸Ð¼Ð¸Ñ€
+// Ð›Ð°Ð±Ð¾Ñ€Ð°Ñ‚Ð¾Ñ€Ð½Ð° Ñ€Ð¾Ð±Ð¾Ñ‚Ð° â„– 4.1
+// Ð¦Ð¸ÐºÐ»Ð¸.
+// Ð’Ð°Ñ€Ñ–Ð°Ð½Ñ‚ 22
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -14,27 +14,27 @@ int main() {
 	i = N;
 	while (i <= 20)
 	{
-		S += ((cos(i) + sin(i)) / 1 + cos(i) * sin(i));
+		S += ((cos(i) + sin(i)) / (1 + cos(i) * sin(i)));
 		i++;
 	}
 	cout << S << endl;
 	S = 0;
 	i = N;
 	do {
-		S += ((cos(i) + sin(i)) / 1 + cos(i) * sin(i));
+		S += ((cos(i) + sin(i)) / (1 + cos(i) * sin(i)));
 		i++;
 	} while (i <= 20);
 	cout << S << endl;
 	S = 0;
 	for (i = N; i <= 20; i++)
 	{
-		S += ((cos(i) + sin(i)) / 1 + cos(i) * sin(i));
+		S += ((cos(i) + sin(i)) / (1 + cos(i) * sin(i)));
 	}
 	cout << S << endl;
 	S = 0;
 	for (i = 20; i >= N; i--)
 	{
-		S += ((cos(i) + sin(i)) / 1 + cos(i) * sin(i));
+		S += ((cos(i) + sin(i)) / (1 + cos(i) * sin(i)));
 	}
 	cout << S << endl;
 	
